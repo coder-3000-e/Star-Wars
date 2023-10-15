@@ -24,7 +24,7 @@ To run this program, follow these steps:
 - [Git](https://git-scm.com/downloads)
 
 ## Getting Started
-Follow these steps to set up and run the EPC Dashboard:
+Follow these steps to set up and run the Star Wars Comparison tool:
 
 1. **Install .NET 6:**
    - Visit [this link](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and follow the installation instructions to install .NET 6.
@@ -36,7 +36,7 @@ Follow these steps to set up and run the EPC Dashboard:
    - Use one of the following methods to obtain the project:
      - Clone the repository with Git:
        ```bash
-       git clone https://github.com/coder-3000-e/EPC-Dashboard.git
+       git clone https://github.com/coder-3000-e/Star-Wars.git
        ```
      - Alternatively, you can download the repository as a ZIP file by clicking the "Download" button on the GitHub repository's main page. Once downloaded, extract the ZIP archive to a location of your choice on your local machine.
 
