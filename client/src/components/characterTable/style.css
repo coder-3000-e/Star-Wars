@@ -1,0 +1,38 @@
+section {
+    height: auto;
+    width: 50%;
+    display: inline-flex;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  aside {
+    height: auto;
+    width: 30%;
+    display: inline-flex;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  
+  .item {
+    margin: 5px;
+    padding: 0.5px;
+  }
+
+  .characterTable-box {
+    background-color: #1a1a1ae0;
+    border: thin solid rgb(48, 48, 64);
+    border-radius: 4rem;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 5px;
+    margin: 1px;
+    width: 40rem;
+  }
