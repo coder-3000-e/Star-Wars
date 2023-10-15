@@ -23,6 +23,11 @@
 
         public string CompareDoubleAttributes(string char1, string char2, string height1, string height2, string attributeName)
         {
+            if (height1.ToLower() == "unknown" || height2.ToLower() == "unknown")
+            {
+                return $"{char1} is {height1} and {char2} is {height2}";
+            }
+
             var height1Value = double.Parse(height1, System.Globalization.CultureInfo.InvariantCulture);
             var height2Value = double.Parse(height2, System.Globalization.CultureInfo.InvariantCulture);
 
@@ -41,6 +46,10 @@
         }
         public string CompareStringAttributes(string char1, string char2, string attribute1, string attribute2)
         {
+            if (attribute1.ToLower() == "unknown" || attribute2.ToLower() == "unknown")
+            {
+                return $"{char1} is {attribute1} and {char2} is {attribute2}";
+            }
             if (string.IsNullOrWhiteSpace(attribute1) && string.IsNullOrWhiteSpace(attribute2))
             {
                 return "Both characters have no data for this attribute.";
